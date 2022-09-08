@@ -1,0 +1,145 @@
+{
+  "addTo": "mainchart",
+  "type": "Study",
+  "id": "M12RsG",
+  "state": {
+    "offset": {
+      "val": 0,
+      "max": 500,
+      "min": -500,
+      "title": "Offset"
+    },
+    "styles": {
+      "MovAvgSimple": {
+        "color": "{color}",
+        "linestyle": 0,
+        "linewidth": {lineWidth},
+        "plottype": 0,
+        "trackPrice": false,
+        "transparency": 0,
+        "visible": true,
+        "histogramBase": 0,
+        "joinPoints": false,
+        "title": "MA"
+      }
+    },
+    "inputs": {
+      "length": {length},
+      "source": "close"
+    },
+    "precision": "default",
+    "palettes": {},
+    "bands": {},
+    "area": {},
+    "graphics": {},
+    "showInDataWindow": true,
+    "visible": true,
+    "plots": {
+      "0": {
+        "id": "MovAvgSimple",
+        "type": "line"
+      }
+    },
+    "_metainfoVersion": 50,
+    "description": "Moving Average",
+    "format": {
+      "type": "inherit"
+    },
+    "id": "MASimple@tv-basicstudies",
+    "is_price_study": true,
+    "shortDescription": "MA",
+    "description_localized": "Moving Average",
+    "shortId": "MASimple",
+    "packageId": "tv-basicstudies",
+    "version": "100",
+    "fullId": "MASimple@tv-basicstudies-100",
+    "productId": "tv-basicstudies",
+    "name": "MASimple@tv-basicstudies",
+    "_serverMetaInfoVersion": 48,
+    "matchPriority": 3,
+    "matchIndex": 0
+  },
+  "zorder": 169,
+  "metaInfo": {
+    "palettes": {},
+    "inputs": [
+      {
+        "defval": 200,
+        "id": "length",
+        "max": 10000,
+        "min": 1,
+        "name": "Length",
+        "type": "integer"
+      },
+      {
+        "defval": "close",
+        "id": "source",
+        "name": "Source",
+        "options": [
+          "open",
+          "high",
+          "low",
+          "close",
+          "hl2",
+          "hlc3",
+          "ohlc4"
+        ],
+        "type": "source"
+      }
+    ],
+    "plots": [
+      {
+        "id": "MovAvgSimple",
+        "type": "line"
+      }
+    ],
+    "graphics": {},
+    "defaults": {
+      "inputs": {
+        "length": 9,
+        "source": "close"
+      },
+      "offset": {
+        "val": 0
+      },
+      "styles": {
+        "MovAvgSimple": {
+          "color": "#3a85ad",
+          "linestyle": 0,
+          "linewidth": 1,
+          "plottype": 0,
+          "trackPrice": false,
+          "transparency": 0,
+          "visible": true
+        }
+      }
+    },
+    "_metainfoVersion": 50,
+    "description": "Moving Average",
+    "format": {
+      "type": "inherit"
+    },
+    "id": "MASimple@tv-basicstudies-100",
+    "is_price_study": true,
+    "offset": {
+      "max": 500,
+      "min": -500,
+      "title": "Offset"
+    },
+    "shortDescription": "MA",
+    "styles": {
+      "MovAvgSimple": {
+        "histogramBase": 0,
+        "title": "MA"
+      }
+    },
+    "description_localized": "Moving Average",
+    "shortId": "MASimple",
+    "packageId": "tv-basicstudies",
+    "version": "100",
+    "fullId": "MASimple@tv-basicstudies-100",
+    "productId": "tv-basicstudies",
+    "name": "MASimple@tv-basicstudies",
+    "_serverMetaInfoVersion": 48
+  }
+}

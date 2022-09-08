@@ -1,0 +1,218 @@
+{
+  "addTo": "newpane",
+  "sources": [
+    {
+      "type": "Study",
+      "id": "xjjQhe",
+      "state": {
+        "bands": {
+          "0": {
+            "color": "#c0c0c0",
+            "linestyle": 2,
+            "linewidth": 1,
+            "value": 70,
+            "visible": true,
+            "name": "Upper Band"
+          },
+          "1": {
+            "color": "#c0c0c0",
+            "linestyle": 2,
+            "linewidth": 1,
+            "value": 30,
+            "visible": true,
+            "name": "Lower Band"
+          }
+        },
+        "bandsBackground": {
+          "backgroundColor": "rgba(0, 0, 0, 0.0572)",
+          "fillBackground": true,
+          "transparency": 90
+        },
+        "styles": {
+          "RelativeStrengthIndex": {
+            "color": "rgba(113, 239, 255, 1)",
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 0,
+            "trackPrice": false,
+            "transparency": 0,
+            "visible": true,
+            "histogramBase": 0,
+            "joinPoints": false,
+            "title": "RSI"
+          }
+        },
+        "inputs": {
+          "length": 14,
+          "source": "close"
+        },
+        "precision": "default",
+        "palettes": {},
+        "area": {},
+        "graphics": {},
+        "showInDataWindow": true,
+        "visible": true,
+        "plots": {
+          "0": {
+            "id": "RelativeStrengthIndex",
+            "type": "line",
+            "pinePlotIndex": 0
+          }
+        },
+        "_metainfoVersion": 50,
+        "description": "Relative Strength Index",
+        "format": {
+          "type": "price",
+          "precision": 2
+        },
+        "id": "RSI@tv-basicstudies",
+        "is_price_study": false,
+        "shortDescription": "RSI",
+        "description_localized": "Relative Strength Index",
+        "shortId": "RSI",
+        "packageId": "tv-basicstudies",
+        "version": "100",
+        "fullId": "RSI@tv-basicstudies-100",
+        "productId": "tv-basicstudies",
+        "name": "RSI@tv-basicstudies",
+        "_serverMetaInfoVersion": 48,
+        "matchPriority": 3,
+        "matchIndex": 0
+      },
+      "zorder": -1,
+      "metaInfo": {
+        "palettes": {},
+        "inputs": [
+          {
+            "defval": 14,
+            "id": "length",
+            "max": 2000,
+            "min": 1,
+            "name": "Length",
+            "type": "integer"
+          },
+          {
+            "defval": "close",
+            "id": "source",
+            "name": "Source",
+            "options": [
+              "open",
+              "high",
+              "low",
+              "close",
+              "hl2",
+              "hlc3",
+              "ohlc4"
+            ],
+            "type": "source"
+          }
+        ],
+        "plots": [
+          {
+            "id": "RelativeStrengthIndex",
+            "type": "line"
+          }
+        ],
+        "graphics": {},
+        "defaults": {
+          "bands": [
+            {
+              "color": "#c0c0c0",
+              "linestyle": 2,
+              "linewidth": 1,
+              "value": 70,
+              "visible": true
+            },
+            {
+              "color": "#c0c0c0",
+              "linestyle": 2,
+              "linewidth": 1,
+              "value": 30,
+              "visible": true
+            }
+          ],
+          "bandsBackground": {
+            "backgroundColor": "#9915ff",
+            "fillBackground": true,
+            "transparency": 90
+          },
+          "inputs": {
+            "length": 14,
+            "source": "close"
+          },
+          "styles": {
+            "RelativeStrengthIndex": {
+              "color": "#8e1599",
+              "linestyle": 0,
+              "linewidth": 1,
+              "plottype": 0,
+              "trackPrice": false,
+              "transparency": 0,
+              "visible": true
+            }
+          }
+        },
+        "_metainfoVersion": 50,
+        "bands": [
+          {
+            "name": "Upper Band"
+          },
+          {
+            "name": "Lower Band"
+          }
+        ],
+        "description": "Relative Strength Index",
+        "format": {
+          "type": "price",
+          "precision": 2
+        },
+        "id": "RSI@tv-basicstudies-100",
+        "is_price_study": false,
+        "shortDescription": "RSI",
+        "styles": {
+          "RelativeStrengthIndex": {
+            "histogramBase": 0,
+            "title": "RSI"
+          }
+        },
+        "description_localized": "Relative Strength Index",
+        "shortId": "RSI",
+        "packageId": "tv-basicstudies",
+        "version": "100",
+        "fullId": "RSI@tv-basicstudies-100",
+        "productId": "tv-basicstudies",
+        "name": "RSI@tv-basicstudies",
+        "_serverMetaInfoVersion": 48
+      }
+    }
+  ],
+  "leftAxisesState": [],
+  "rightAxisesState": [
+    {
+      "state": {
+        "id": "PlqslOssb6P0",
+        "m_priceRange": {
+          "m_maxValue": 74.75421905042057,
+          "m_minValue": 20.372694270132314
+        },
+        "m_isAutoScale": true,
+        "m_isPercentage": false,
+        "m_isIndexedTo100": false,
+        "m_isLog": false,
+        "m_isLockScale": false,
+        "m_isInverted": false,
+        "m_height": 70,
+        "m_topMargin": 0.1,
+        "m_bottomMargin": 0.08,
+        "alignLabels": true
+      },
+      "sources": [
+        "xjjQhe"
+      ]
+    }
+  ],
+  "overlayPriceScales": {},
+  "stretchFactor": 1000,
+  "mainSourceId": "xjjQhe",
+  "priceScaleRatio": null
+}

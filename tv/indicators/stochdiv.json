@@ -1,0 +1,292 @@
+{
+  "addTo": "newpane",
+  "sources": [
+    {
+      "type": "Study",
+      "id": "cIPGCQ",
+      "state": {
+        "styles": {
+          "plot_0": {
+            "color": "rgba(171, 246, 255, 1)",
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 0,
+            "trackPrice": false,
+            "transparency": 0,
+            "visible": true,
+            "histogramBase": 0,
+            "joinPoints": false,
+            "title": "StochRSI",
+            "isHidden": false
+          },
+          "plot_1": {
+            "color": "rgba(0, 188, 212, 1)",
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 0,
+            "trackPrice": false,
+            "transparency": 0,
+            "visible": true,
+            "histogramBase": 0,
+            "joinPoints": false,
+            "title": "StochRSI Signal",
+            "isHidden": false
+          }
+        },
+        "inputs": {
+          "in_0": 8,
+          "in_1": 5,
+          "in_2": 8,
+          "in_3": true,
+          "in_4": 6,
+          "in_5": "close",
+          "pineId": "",
+          "pineVersion": "",
+          "text": "5Ph6VEx6Ng3cvwXmTmBAfQ==_Jb9LSanPmfTd792DsWMd/2Dl93++t5RT/jqOWk5nYOYfB2dVp2Rje2j+E4Qj57rthgr3H9YOsaHxWsEXsD+l88/+6jftuT7m2VoVtkC1j6HFFn5fgCFEjMF04glrPNYeyC1nYttoBH6NZZKAS3wMuQJJ11RqbmueuLqbI5PNsKyuCWMwLPYorXl2DM1PdoOKCfBFa32DHHKQuwD4x4709HdDaxqT6iKwfwrwSJPG02OjjECdNCiI2+K/GNDDn5nTvNFdHiSZgMd2G94tqdc3HDq9kmkExTOffHLcbj7a0rJeynPUFJxQRasTUBz+QQ5gU8ZRa+NuYpUE+NizPyRkKNNwzOjHRfEd1mTSdweZoX5MTOgnSgId181oIpE="
+        },
+        "precision": "default",
+        "palettes": {},
+        "bands": {},
+        "area": {},
+        "graphics": {},
+        "showInDataWindow": true,
+        "visible": true,
+        "plots": {
+          "0": {
+            "id": "plot_0",
+            "type": "line",
+            "pinePlotIndex": 0
+          },
+          "1": {
+            "id": "plot_1",
+            "type": "line",
+            "pinePlotIndex": 1
+          }
+        },
+        "_metainfoVersion": 50,
+        "description": "Divergence RSI",
+        "format": {
+          "type": "inherit"
+        },
+        "id": "Script$USER;8U83DXFMNPop1ghYzuO7tcvntCmfNXE1@tv-scripting",
+        "isTVScript": true,
+        "isTVScriptStub": false,
+        "is_hidden_study": false,
+        "is_price_study": false,
+        "pine": {
+          "digest": "11a40932c98e2c1cfc8e8de37d7776b936814f45",
+          "version": "42.0"
+        },
+        "scriptIdPart": "USER;8U83DXFMNPop1ghYzuO7tcvntCmfNXE1",
+        "shortDescription": "Divergence RSI",
+        "warnings": {},
+        "shortId": "Script$USER;8U83DXFMNPop1ghYzuO7tcvntCmfNXE1",
+        "packageId": "tv-scripting",
+        "version": "101",
+        "fullId": "Script$USER;8U83DXFMNPop1ghYzuO7tcvntCmfNXE1@tv-scripting-101",
+        "productId": "tv-scripting",
+        "name": "Script$USER;8U83DXFMNPop1ghYzuO7tcvntCmfNXE1@tv-scripting",
+        "_serverMetaInfoVersion": 50
+      },
+      "zorder": 0,
+      "metaInfo": {
+        "palettes": {},
+        "inputs": [
+          {
+            "defval": "5Ph6VEx6Ng3cvwXmTmBAfQ==_Jb9LSanPmfTd792DsWMd/2Dl93++t5RT/jqOWk5nYOYfB2dVp2Rje2j+E4Qj57rthgr3H9YOsaHxWsEXsD+l88/+6jftuT7m2VoVtkC1j6HFFn5fgCFEjMF04glrPNYeyC1nYttoBH6NZZKAS3wMuQJJ11RqbmueuLqbI5PNsKyuCWMwLPYorXl2DM1PdoOKCfBFa32DHHKQuwD4x4709HdDaxqT6iKwfwrwSJPG02OjjECdNCiI2+K/GNDDn5nTvNFdHiSZgMd2G94tqdc3HDq9kmkExTOffHLcbj7a0rJeynPUFJxQRasTUBz+QQ5gU8ZRa+NuYpUE+NizPyRkKNNwzOjHRfEd1mTSdweZoX5MTOgnSgId181oIpE=",
+            "id": "text",
+            "isHidden": true,
+            "name": "ILScript",
+            "type": "text"
+          },
+          {
+            "defval": "",
+            "id": "pineId",
+            "isHidden": true,
+            "name": "pineId",
+            "type": "text"
+          },
+          {
+            "defval": "",
+            "id": "pineVersion",
+            "isHidden": true,
+            "name": "pineVersion",
+            "type": "text"
+          },
+          {
+            "defval": 8,
+            "id": "in_0",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "RSI Length",
+            "type": "integer"
+          },
+          {
+            "defval": 5,
+            "id": "in_1",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "Look Back Length",
+            "type": "integer"
+          },
+          {
+            "defval": 8,
+            "id": "in_2",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "Average Length",
+            "type": "integer"
+          },
+          {
+            "defval": false,
+            "id": "in_3",
+            "isFake": true,
+            "name": "Signal On/Off?",
+            "type": "bool"
+          },
+          {
+            "defval": 6,
+            "id": "in_4",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "Signal Length",
+            "type": "integer"
+          },
+          {
+            "defval": "close",
+            "id": "in_5",
+            "isFake": true,
+            "name": "Source",
+            "options": [
+              "open",
+              "high",
+              "low",
+              "close",
+              "hl2",
+              "hlc3",
+              "ohlc4"
+            ],
+            "type": "source"
+          }
+        ],
+        "plots": [
+          {
+            "id": "plot_0",
+            "type": "line",
+            "pinePlotIndex": 0
+          },
+          {
+            "id": "plot_1",
+            "type": "line",
+            "pinePlotIndex": 1
+          }
+        ],
+        "graphics": {},
+        "defaults": {
+          "inputs": {
+            "in_0": 8,
+            "in_1": 5,
+            "in_2": 8,
+            "in_3": false,
+            "in_4": 6,
+            "in_5": "close",
+            "pineId": "",
+            "pineVersion": "",
+            "text": "5Ph6VEx6Ng3cvwXmTmBAfQ==_Jb9LSanPmfTd792DsWMd/2Dl93++t5RT/jqOWk5nYOYfB2dVp2Rje2j+E4Qj57rthgr3H9YOsaHxWsEXsD+l88/+6jftuT7m2VoVtkC1j6HFFn5fgCFEjMF04glrPNYeyC1nYttoBH6NZZKAS3wMuQJJ11RqbmueuLqbI5PNsKyuCWMwLPYorXl2DM1PdoOKCfBFa32DHHKQuwD4x4709HdDaxqT6iKwfwrwSJPG02OjjECdNCiI2+K/GNDDn5nTvNFdHiSZgMd2G94tqdc3HDq9kmkExTOffHLcbj7a0rJeynPUFJxQRasTUBz+QQ5gU8ZRa+NuYpUE+NizPyRkKNNwzOjHRfEd1mTSdweZoX5MTOgnSgId181oIpE="
+          },
+          "styles": {
+            "plot_0": {
+              "color": "#FFFFFF",
+              "linestyle": 0,
+              "linewidth": 1,
+              "plottype": 0,
+              "trackPrice": false,
+              "transparency": 0,
+              "visible": true
+            },
+            "plot_1": {
+              "color": "#FFEB3B",
+              "linestyle": 0,
+              "linewidth": 1,
+              "plottype": 0,
+              "trackPrice": false,
+              "transparency": 0,
+              "visible": true
+            }
+          }
+        },
+        "_metainfoVersion": 50,
+        "description": "Divergence RSI",
+        "format": {
+          "type": "inherit"
+        },
+        "id": "Script$USER;8U83DXFMNPop1ghYzuO7tcvntCmfNXE1@tv-scripting-101",
+        "isTVScript": true,
+        "isTVScriptStub": false,
+        "is_hidden_study": false,
+        "is_price_study": false,
+        "pine": {
+          "digest": "11a40932c98e2c1cfc8e8de37d7776b936814f45",
+          "version": "42.0"
+        },
+        "scriptIdPart": "USER;8U83DXFMNPop1ghYzuO7tcvntCmfNXE1",
+        "shortDescription": "Divergence RSI",
+        "styles": {
+          "plot_0": {
+            "histogramBase": 0,
+            "isHidden": false,
+            "joinPoints": false,
+            "title": "StochRSI"
+          },
+          "plot_1": {
+            "histogramBase": 0,
+            "isHidden": false,
+            "joinPoints": false,
+            "title": "StochRSI Signal"
+          }
+        },
+        "warnings": [],
+        "shortId": "Script$USER;8U83DXFMNPop1ghYzuO7tcvntCmfNXE1",
+        "packageId": "tv-scripting",
+        "version": "101",
+        "fullId": "Script$USER;8U83DXFMNPop1ghYzuO7tcvntCmfNXE1@tv-scripting-101",
+        "productId": "tv-scripting",
+        "name": "Script$USER;8U83DXFMNPop1ghYzuO7tcvntCmfNXE1@tv-scripting",
+        "_serverMetaInfoVersion": 50
+      }
+    }
+  ],
+  "leftAxisesState": [],
+  "rightAxisesState": [
+    {
+      "state": {
+        "id": "i0eIIUfg7x7l",
+        "m_priceRange": {
+          "m_maxValue": 95.0087693864884,
+          "m_minValue": 3.88871147401925
+        },
+        "m_isAutoScale": true,
+        "m_isPercentage": false,
+        "m_isIndexedTo100": false,
+        "m_isLog": false,
+        "m_isLockScale": false,
+        "m_isInverted": false,
+        "m_height": 38,
+        "m_topMargin": 0.1,
+        "m_bottomMargin": 0.08,
+        "alignLabels": true
+      },
+      "sources": [
+        "cIPGCQ"
+      ]
+    }
+  ],
+  "overlayPriceScales": {},
+  "stretchFactor": 541.6535491363902,
+  "mainSourceId": "cIPGCQ",
+  "priceScaleRatio": null
+}

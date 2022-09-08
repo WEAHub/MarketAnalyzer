@@ -1,0 +1,1053 @@
+{
+  "name": "Unnamed",
+  "layout": "s",
+  "charts": [
+    {
+      "panes": [
+        {
+          "sources": [
+            {
+              "type": "MainSeries",
+              "id": "vMlAuh",
+              "state": {
+                "style": 1,
+                "esdShowDividends": true,
+                "esdShowSplits": true,
+                "esdShowEarnings": true,
+                "esdShowBreaks": false,
+                "esdBreaksStyle": {
+                  "color": "rgba( 235, 77, 92, 1)",
+                  "style": 2,
+                  "width": 1
+                },
+                "esdFlagSize": 2,
+                "showCountdown": true,
+                "showInDataWindow": true,
+                "visible": true,
+                "showPriceLine": false,
+                "priceLineWidth": 1,
+                "priceLineColor": "",
+                "baseLineColor": "#5d606b",
+                "showPrevClosePriceLine": false,
+                "prevClosePriceLineWidth": 1,
+                "prevClosePriceLineColor": "rgba( 85, 85, 85, 1)",
+                "minTick": "default",
+                "extendedHours": false,
+                "dividendsAdjustment": false,
+                "sessVis": false,
+                "statusViewStyle": {
+                  "fontSize": 16,
+                  "showExchange": true,
+                  "showInterval": true,
+                  "symbolTextSource": "description",
+                  "showSymbolAsDescription": false
+                },
+                "candleStyle": {
+                  "upColor": "rgba(255, 255, 255, 1)",
+                  "downColor": "rgba(25, 118, 210, 1)",
+                  "drawWick": true,
+                  "drawBorder": true,
+                  "borderColor": "#378658",
+                  "borderUpColor": "rgba(255, 255, 255, 1)",
+                  "borderDownColor": "rgba(25, 118, 210, 1)",
+                  "wickColor": "#B5B5B8",
+                  "wickUpColor": "rgba(255, 255, 255, 1)",
+                  "wickDownColor": "rgba(25, 118, 210, 1)",
+                  "barColorsOnPrevClose": false,
+                  "drawBody": true,
+                  "inputs": { }
+                },
+                "hollowCandleStyle": {
+                  "upColor": "#26a69a",
+                  "downColor": "#ef5350",
+                  "drawWick": true,
+                  "drawBorder": true,
+                  "borderColor": "#378658",
+                  "borderUpColor": "#26a69a",
+                  "borderDownColor": "#ef5350",
+                  "wickColor": "#B5B5B8",
+                  "wickUpColor": "#26a69a",
+                  "wickDownColor": "#ef5350",
+                  "drawBody": true,
+                  "inputs": { }
+                },
+                "haStyle": {
+                  "upColor": "#26a69a",
+                  "downColor": "#ef5350",
+                  "drawWick": true,
+                  "drawBorder": true,
+                  "borderColor": "#378658",
+                  "borderUpColor": "#26a69a",
+                  "borderDownColor": "#ef5350",
+                  "wickColor": "#B5B5B8",
+                  "wickUpColor": "#26a69a",
+                  "wickDownColor": "#ef5350",
+                  "showRealLastPrice": false,
+                  "barColorsOnPrevClose": false,
+                  "inputs": { },
+                  "inputInfo": { },
+                  "drawBody": true
+                },
+                "barStyle": {
+                  "upColor": "#26a69a",
+                  "downColor": "#ef5350",
+                  "barColorsOnPrevClose": false,
+                  "dontDrawOpen": false,
+                  "thinBars": true,
+                  "inputs": { }
+                },
+                "hiloStyle": {
+                  "color": "#2196f3",
+                  "showBorders": true,
+                  "borderColor": "#2196f3",
+                  "showLabels": true,
+                  "labelColor": "#2196f3",
+                  "fontSize": 7,
+                  "drawBody": true
+                },
+                "lineStyle": {
+                  "color": "#2196f3",
+                  "linestyle": 0,
+                  "linewidth": 3,
+                  "priceSource": "close",
+                  "styleType": 2
+                },
+                "areaStyle": {
+                  "color1": "#2196f3",
+                  "color2": "#2196f3",
+                  "linecolor": "#2196f3",
+                  "linestyle": 0,
+                  "linewidth": 3,
+                  "priceSource": "close",
+                  "transparency": 95
+                },
+                "renkoStyle": {
+                  "upColor": "#26a69a",
+                  "downColor": "#ef5350",
+                  "borderUpColor": "#26a69a",
+                  "borderDownColor": "#ef5350",
+                  "upColorProjection": "#336854",
+                  "downColorProjection": "#7f323f",
+                  "borderUpColorProjection": "#336854",
+                  "borderDownColorProjection": "#7f323f",
+                  "wickUpColor": "#26a69a",
+                  "wickDownColor": "#ef5350",
+                  "inputs": {
+                    "sources": "Close",
+                    "boxSize": 3,
+                    "style": "ATR",
+                    "atrLength": 14,
+                    "wicks": true,
+                    "source": "close"
+                  },
+                  "inputInfo": {
+                    "sources": {
+                      "name": "Source"
+                    },
+                    "boxSize": {
+                      "name": "Box size"
+                    },
+                    "style": {
+                      "name": "Style"
+                    },
+                    "atrLength": {
+                      "name": "ATR length"
+                    },
+                    "wicks": {
+                      "name": "Wicks"
+                    },
+                    "source": {
+                      "name": "Source"
+                    }
+                  }
+                },
+                "pbStyle": {
+                  "upColor": "#26a69a",
+                  "downColor": "#ef5350",
+                  "borderUpColor": "#26a69a",
+                  "borderDownColor": "#ef5350",
+                  "upColorProjection": "#336854",
+                  "downColorProjection": "#7f323f",
+                  "borderUpColorProjection": "#336854",
+                  "borderDownColorProjection": "#7f323f",
+                  "inputs": {
+                    "source": "close",
+                    "lb": 3
+                  },
+                  "inputInfo": {
+                    "source": {
+                      "name": "Source"
+                    },
+                    "lb": {
+                      "name": "Number of line"
+                    }
+                  }
+                },
+                "kagiStyle": {
+                  "upColor": "#26a69a",
+                  "downColor": "#ef5350",
+                  "upColorProjection": "#336854",
+                  "downColorProjection": "#7f323f",
+                  "inputs": {
+                    "source": "close",
+                    "style": "ATR",
+                    "atrLength": 14,
+                    "reversalAmount": 1
+                  },
+                  "inputInfo": {
+                    "source": {
+                      "name": "Source"
+                    },
+                    "style": {
+                      "name": "Style"
+                    },
+                    "atrLength": {
+                      "name": "ATR length"
+                    },
+                    "reversalAmount": {
+                      "name": "Reversal amount"
+                    }
+                  }
+                },
+                "pnfStyle": {
+                  "upColor": "#26a69a",
+                  "downColor": "#ef5350",
+                  "upColorProjection": "#336854",
+                  "downColorProjection": "#7f323f",
+                  "inputs": {
+                    "sources": "Close",
+                    "reversalAmount": 3,
+                    "boxSize": 1,
+                    "style": "ATR",
+                    "atrLength": 14,
+                    "oneStepBackBuilding": false
+                  },
+                  "inputInfo": {
+                    "sources": {
+                      "name": "Source"
+                    },
+                    "boxSize": {
+                      "name": "Box size"
+                    },
+                    "reversalAmount": {
+                      "name": "Reversal amount"
+                    },
+                    "style": {
+                      "name": "Style"
+                    },
+                    "atrLength": {
+                      "name": "ATR length"
+                    },
+                    "oneStepBackBuilding": {
+                      "name": "One step back building"
+                    }
+                  }
+                },
+                "baselineStyle": {
+                  "baselineColor": "rgba( 117, 134, 150, 1)",
+                  "topFillColor1": "rgba( 38, 166, 154, 0.05)",
+                  "topFillColor2": "rgba( 38, 166, 154, 0.05)",
+                  "bottomFillColor1": "rgba( 239, 83, 80, 0.05)",
+                  "bottomFillColor2": "rgba( 239, 83, 80, 0.05)",
+                  "topLineColor": "rgba( 38, 166, 154, 1)",
+                  "bottomLineColor": "rgba( 239, 83, 80, 1)",
+                  "topLineWidth": 3,
+                  "bottomLineWidth": 3,
+                  "priceSource": "close",
+                  "transparency": 50,
+                  "baseLevelPercentage": 50
+                },
+                "rangeStyle": {
+                  "upColor": "#26a69a",
+                  "downColor": "#ef5350",
+                  "thinBars": true,
+                  "upColorProjection": "#336854",
+                  "downColorProjection": "#7f323f",
+                  "inputs": {
+                    "range": 10,
+                    "phantomBars": false
+                  },
+                  "inputInfo": {
+                    "range": {
+                      "name": "Range"
+                    },
+                    "phantomBars": {
+                      "name": "Phantom bars"
+                    }
+                  }
+                },
+                "symbol": "BITFINEX:BTCUSD",
+                "shortName": "BTCUSD",
+                "timeframe": "",
+                "onWidget": false,
+                "interval": "1D",
+                "silentIntervalChange": false,
+                "showSessions": false,
+                "timezone": "UTC",
+                "outOfSessionWrap": false,
+                "inSessionWrap": false,
+                "": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "availableIntervals": "1,3,5,15,30,45,60,120,180,240,D,W,M",
+                "_blank": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "DCSext.DartZone": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "_e_0Gm6": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "_e_0wot": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "_e_0WOZ": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "_e_0RXY": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "_e_0Ks5": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "MSSite_Receiver_02_13_13_04_26_17_4716493___False": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "hospitals": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "li": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "ntilt": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "mainwindow": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "MSNMusic": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "wndMain": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "gxhfNg6t": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "_e_0G2v": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_f3ea1": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_18aa9": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_07ec7": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_7c867": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_3f793": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_b4d61": {
+                  "autoScale": false,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_be74b": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_1f202": {
+                  "autoScale": false,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_eba44": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_931d1": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_e5453": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_7802d": {
+                  "autoScale": false,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_c83f4": {
+                  "autoScale": false,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_9a781": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_89cc0": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_f9acc": {
+                  "autoScale": false,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_adef4": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_4d58c": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_e1711": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "NXWZLcyy": {
+                  "autoScale": false,
+                  "percentage": false,
+                  "log": false
+                },
+                "rVocZ96o": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "TVWPb61E": {
+                  "autoScale": false,
+                  "percentage": false,
+                  "log": false
+                },
+                "tJC5QrN1": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "_e_0spo": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "_e_01Iu": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "_e_0Cmu": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "wlnPyiBM": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "_e_0Z7F": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_0f04b": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "chart-frame": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_dc679": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_77fbe": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "tradingview_2f7db": {
+                  "autoScale": false,
+                  "percentage": false,
+                  "log": false
+                },
+                "JTw5Du19": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "_nfk": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "title": {
+                  "autoScale": true,
+                  "percentage": false,
+                  "log": false
+                },
+                "09cnKlsA": {
+                  "autoScale": false,
+                  "percentage": false,
+                  "log": false
+                },
+                "priceAxisProperties": {
+                  "autoScale": true,
+                  "autoScaleDisabled": false,
+                  "lockScale": false,
+                  "percentage": false,
+                  "percentageDisabled": false,
+                  "log": true,
+                  "logDisabled": false,
+                  "alignLabels": true,
+                  "isInverted": false,
+                  "indexedTo100": false,
+                  "showSymbolLabels": false,
+                  "showStudyPlotLabels": true
+                }
+              },
+              "zorder": -1,
+              "haStyle": {
+                "studyId": "BarSetHeikenAshi@tv-basicstudies-60"
+              },
+              "renkoStyle": {
+                "studyId": "BarSetRenko@tv-prostudies-38"
+              },
+              "pbStyle": {
+                "studyId": "BarSetPriceBreak@tv-prostudies-34"
+              },
+              "kagiStyle": {
+                "studyId": "BarSetKagi@tv-prostudies-34"
+              },
+              "pnfStyle": {
+                "studyId": "BarSetPnF@tv-prostudies-34"
+              },
+              "rangeStyle": {
+                "studyId": "BarSetRange@tv-basicstudies-72"
+              }
+            },
+            {
+              "type": "Study",
+              "id": "Qr3Neq",
+              "state": {
+                "palettes": {
+                  "volumePalette": {
+                    "colors": {
+                      "0": {
+                        "color": "rgba(255, 255, 255, 0.5)",
+                        "style": 0,
+                        "width": 1,
+                        "name": "Growing"
+                      },
+                      "1": {
+                        "color": "rgba(25, 118, 210, 0.5)",
+                        "style": 0,
+                        "width": 1,
+                        "name": "Falling"
+                      }
+                    }
+                  }
+                },
+                "styles": {
+                  "vol": {
+                    "linestyle": 0,
+                    "linewidth": 1,
+                    "plottype": 5,
+                    "trackPrice": false,
+                    "transparency": 50,
+                    "visible": true,
+                    "color": "#0496ff",
+                    "histogramBase": 0,
+                    "joinPoints": false,
+                    "title": "Volume"
+                  },
+                  "vol_ma": {
+                    "color": "#ff9850",
+                    "linestyle": 0,
+                    "linewidth": 1,
+                    "plottype": 0,
+                    "trackPrice": false,
+                    "transparency": 0,
+                    "visible": false,
+                    "histogramBase": 0,
+                    "joinPoints": false,
+                    "title": "Volume MA"
+                  }
+                },
+                "inputs": {
+                  "col_prev_close": false,
+                  "length": 20
+                },
+                "precision": "default",
+                "bands": { },
+                "area": { },
+                "graphics": { },
+                "showInDataWindow": true,
+                "visible": true,
+                "showStudyArguments": true,
+                "plots": {
+                  "0": {
+                    "id": "vol",
+                    "type": "line"
+                  },
+                  "1": {
+                    "id": "vol_color",
+                    "palette": "volumePalette",
+                    "target": "vol",
+                    "type": "colorer"
+                  },
+                  "2": {
+                    "id": "vol_ma",
+                    "type": "line"
+                  }
+                },
+                "_metainfoVersion": 50,
+                "description": "Volume",
+                "format": {
+                  "type": "volume"
+                },
+                "id": "Volume@tv-basicstudies",
+                "is_price_study": false,
+                "shortDescription": "Vol",
+                "description_localized": "Volume",
+                "shortId": "Volume",
+                "packageId": "tv-basicstudies",
+                "version": "100",
+                "fullId": "Volume@tv-basicstudies-100",
+                "productId": "tv-basicstudies",
+                "name": "Volume@tv-basicstudies",
+                "_serverMetaInfoVersion": 48
+              },
+              "zorder": -2,
+              "metaInfo": {
+                "palettes": {
+                  "volumePalette": {
+                    "colors": {
+                      "0": {
+                        "name": "Growing"
+                      },
+                      "1": {
+                        "name": "Falling"
+                      }
+                    }
+                  }
+                },
+                "inputs": [
+                  {
+                    "defval": 20,
+                    "id": "length",
+                    "max": 2000,
+                    "min": 1,
+                    "name": "MA Length",
+                    "type": "integer"
+                  },
+                  {
+                    "defval": false,
+                    "id": "col_prev_close",
+                    "name": "Color based on previous close",
+                    "type": "bool"
+                  }
+                ],
+                "plots": [
+                  {
+                    "id": "vol",
+                    "type": "line"
+                  },
+                  {
+                    "id": "vol_color",
+                    "palette": "volumePalette",
+                    "target": "vol",
+                    "type": "colorer"
+                  },
+                  {
+                    "id": "vol_ma",
+                    "type": "line"
+                  }
+                ],
+                "graphics": { },
+                "defaults": {
+                  "inputs": {
+                    "col_prev_close": false,
+                    "length": 20
+                  },
+                  "palettes": {
+                    "volumePalette": {
+                      "colors": {
+                        "0": {
+                          "color": "#26a69a",
+                          "style": 0,
+                          "width": 1
+                        },
+                        "1": {
+                          "color": "#ef5350",
+                          "style": 0,
+                          "width": 1
+                        }
+                      }
+                    }
+                  },
+                  "styles": {
+                    "vol": {
+                      "linestyle": 0,
+                      "linewidth": 1,
+                      "plottype": 5,
+                      "trackPrice": false,
+                      "transparency": 50,
+                      "visible": true
+                    },
+                    "vol_ma": {
+                      "color": "#ff9850",
+                      "linestyle": 0,
+                      "linewidth": 1,
+                      "plottype": 0,
+                      "trackPrice": false,
+                      "transparency": 0,
+                      "visible": false
+                    }
+                  }
+                },
+                "_metainfoVersion": 50,
+                "description": "Volume",
+                "format": {
+                  "type": "volume"
+                },
+                "id": "Volume@tv-basicstudies-100",
+                "is_price_study": false,
+                "shortDescription": "Vol",
+                "styles": {
+                  "vol": {
+                    "histogramBase": 0,
+                    "title": "Volume"
+                  },
+                  "vol_ma": {
+                    "histogramBase": 0,
+                    "title": "Volume MA"
+                  }
+                },
+                "description_localized": "Volume",
+                "shortId": "Volume",
+                "packageId": "tv-basicstudies",
+                "version": "100",
+                "fullId": "Volume@tv-basicstudies-100",
+                "productId": "tv-basicstudies",
+                "name": "Volume@tv-basicstudies",
+                "_serverMetaInfoVersion": 48
+              }
+            }
+          ],
+          "leftAxisesState": [],
+          "rightAxisesState": [
+            {
+              "state": {
+                "id": "lqlaqS4D5GIE",
+                "m_priceRange": {
+                  "m_maxValue": 8.090786931472955,
+                  "m_minValue": 7.811373903759073
+                },
+                "m_isAutoScale": true,
+                "m_isPercentage": false,
+                "m_isIndexedTo100": false,
+                "m_isLog": true,
+                "m_isLockScale": false,
+                "m_isInverted": false,
+                "m_height": 829,
+                "m_topMargin": 0.1,
+                "m_bottomMargin": 0.08,
+                "alignLabels": true
+              },
+              "sources": [
+                "vMlAuh"
+              ]
+            }
+          ],
+          "overlayPriceScales": {
+            "Qr3Neq": {
+              "id": "Z4WEMBjpcFFo",
+              "m_priceRange": {
+                "m_maxValue": 34869.18936608,
+                "m_minValue": 0
+              },
+              "m_isAutoScale": true,
+              "m_isPercentage": false,
+              "m_isIndexedTo100": false,
+              "m_isLog": false,
+              "m_isLockScale": false,
+              "m_isInverted": false,
+              "m_height": 829,
+              "m_topMargin": 0.75,
+              "m_bottomMargin": 0,
+              "alignLabels": true
+            }
+          },
+          "stretchFactor": 2000,
+          "mainSourceId": "vMlAuh",
+          "priceScaleRatio": null
+        }
+      ],
+      "timeScale": {
+        "m_barSpacing": 6,
+        "m_rightOffset": 10
+      },
+      "chartProperties": {
+        "paneProperties": {
+          "background": "rgba(6, 13, 23, 1)",
+          "gridProperties": {
+            "color": "#363c4e",
+            "style": 0
+          },
+          "vertGridProperties": {
+            "color": "rgba(54, 60, 78, 0)",
+            "style": 0
+          },
+          "horzGridProperties": {
+            "color": "rgba(54, 60, 78, 0)",
+            "style": 0
+          },
+          "crossHairProperties": {
+            "color": "#758696",
+            "style": 2,
+            "transparency": 0,
+            "width": 1
+          },
+          "topMargin": 10,
+          "bottomMargin": 8,
+          "axisProperties": {
+            "autoScale": true,
+            "autoScaleDisabled": false,
+            "lockScale": false,
+            "percentage": false,
+            "percentageDisabled": false,
+            "indexedTo100": false,
+            "log": false,
+            "logDisabled": false,
+            "alignLabels": true,
+            "isInverted": false,
+            "showSymbolLabels": false,
+            "showStudyPlotLabels": true
+          },
+          "legendProperties": {
+            "showStudyArguments": true,
+            "showStudyTitles": true,
+            "showStudyValues": true,
+            "showSeriesTitle": true,
+            "showSeriesOHLC": true,
+            "showLegend": false,
+            "showBarChange": true,
+            "showBackground": true,
+            "backgroundTransparency": 50,
+            "wrapText": false,
+            "showOnlyPriceSource": false
+          },
+          "leftAxisProperties": {
+            "autoScale": true,
+            "autoScaleDisabled": false,
+            "lockScale": false,
+            "percentage": false,
+            "percentageDisabled": false,
+            "indexedTo100": false,
+            "log": false,
+            "logDisabled": false,
+            "alignLabels": true,
+            "isInverted": false,
+            "showSymbolLabels": false,
+            "showStudyPlotLabels": false
+          },
+          "rightAxisProperties": {
+            "autoScale": true,
+            "autoScaleDisabled": false,
+            "lockScale": false,
+            "percentage": false,
+            "percentageDisabled": false,
+            "indexedTo100": false,
+            "log": false,
+            "logDisabled": false,
+            "alignLabels": true,
+            "isInverted": false,
+            "showSymbolLabels": false,
+            "showStudyPlotLabels": true
+          },
+          "overlayPropreties": {
+            "autoScale": true,
+            "autoScaleDisabled": false,
+            "lockScale": false,
+            "percentage": false,
+            "percentageDisabled": false,
+            "log": false,
+            "logDisabled": false,
+            "alignLabels": true,
+            "showSymbolLabels": false,
+            "showStudyPlotLabels": false
+          },
+          "rightOffset": { }
+        },
+        "scalesProperties": {
+          "backgroundColor": "#ffffff",
+          "lineColor": "#787878",
+          "textColor": "#D9D9D9",
+          "fontSize": 12,
+          "scaleSeriesOnly": false,
+          "showSeriesLastValue": true,
+          "seriesLastValueMode": 1,
+          "showSeriesPrevCloseValue": false,
+          "showStudyLastValue": false,
+          "showSymbolLabels": false,
+          "showStudyPlotLabels": false,
+          "showFundamentalNameLabel": false,
+          "showFundamentalLastValue": false,
+          "barSpacing": 6,
+          "showLeftScale": false,
+          "showRightScale": true,
+          "showLastValue": true,
+          "showSeriesLastValueProperty": true,
+          "showStudyLastValueProperty": true,
+          "showSeriesPrevCloseValueDisabled": true
+        },
+        "publishedChartsTimelineProperties": {
+          "type": "BarsMarksContainer",
+          "id": "tvEYkP",
+          "pinnedTooltips": { }
+        },
+        "chartEventsSourceProperties": {
+          "visible": true,
+          "futureOnly": true,
+          "breaks": {
+            "color": "rgba(85, 85, 85, 1)",
+            "visible": false,
+            "style": 2,
+            "width": 1
+          },
+          "currencyFilter": ""
+        },
+        "priceScaleSelectionStrategyName": "auto"
+      },
+      "lineToolsGroups": {
+        "groups": []
+      },
+      "version": 2,
+      "timezone": "Europe/Paris",
+      "sessions": {
+        "properties": {
+          "graphics": {
+            "backgrounds": {
+              "outOfSession": {
+                "color": "#2196F3",
+                "transparency": 80,
+                "visible": false,
+                "name": "Extended Hours"
+              },
+              "inSession": {
+                "color": "rgba(111, 168, 220, 0.4)",
+                "transparency": 60,
+                "visible": false,
+                "name": "In Session"
+              }
+            },
+            "vertlines": {
+              "sessBreaks": {
+                "color": "#4985e7",
+                "style": 2,
+                "visible": false,
+                "width": 1,
+                "name": "Session Break"
+              }
+            }
+          },
+          "properties": {
+            "graphics": {
+              "backgrounds": {
+                "outOfSession": {
+                  "color": "#2196F3",
+                  "transparency": 80,
+                  "visible": false,
+                  "name": "Extended Hours"
+                },
+                "inSession": {
+                  "color": "rgba(111, 168, 220, 0.4)",
+                  "transparency": 60,
+                  "visible": false,
+                  "name": "In Session"
+                }
+              },
+              "vertlines": {
+                "sessBreaks": {
+                  "color": "#4985e7",
+                  "style": 2,
+                  "visible": false,
+                  "width": 1,
+                  "name": "Session Break"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}
+

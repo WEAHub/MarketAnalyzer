@@ -1,0 +1,1747 @@
+{
+  "addTo": "newpane",
+  "sources": [
+    {
+      "type": "Study",
+      "id": "OGns9u",
+      "state": {
+        "palettes": {
+          "palette_0": {
+            "colors": {
+              "0": {
+                "color": "rgba(0,0,0,0.2)",
+                "style": 0,
+                "width": 1,
+                "name": "Color 0"
+              }
+            },
+            "valToIndex": {
+              "8": 0
+            }
+          },
+          "palette_1": {
+            "colors": {
+              "0": {
+                "color": "rgba(255, 255, 255, 0.35)",
+                "style": 0,
+                "width": 1,
+                "name": "Color 0"
+              },
+              "1": {
+                "color": "rgba(25, 118, 210, 0.45)",
+                "style": 0,
+                "width": 1,
+                "name": "Color 1"
+              }
+            },
+            "valToIndex": {
+              "0": 0,
+              "1": 1
+            }
+          },
+          "palette_2": {
+            "colors": {
+              "0": {
+                "color": "#ff0000",
+                "style": 0,
+                "width": 1,
+                "name": "Color 0"
+              }
+            },
+            "addDefaultColor": true,
+            "valToIndex": {
+              "2": 0
+            }
+          },
+          "palette_3": {
+            "colors": {
+              "0": {
+                "color": "#3fff00",
+                "style": 0,
+                "width": 1,
+                "name": "Color 0"
+              }
+            },
+            "addDefaultColor": true,
+            "valToIndex": {
+              "3": 0
+            }
+          },
+          "palette_4": {
+            "colors": {
+              "0": {
+                "color": "#9a0202",
+                "style": 0,
+                "width": 1,
+                "name": "Color 0"
+              }
+            },
+            "addDefaultColor": true,
+            "valToIndex": {
+              "4": 0
+            }
+          },
+          "palette_5": {
+            "colors": {
+              "0": {
+                "color": "#1b5e20",
+                "style": 0,
+                "width": 1,
+                "name": "Color 0"
+              }
+            },
+            "addDefaultColor": true,
+            "valToIndex": {
+              "5": 0
+            }
+          },
+          "palette_6": {
+            "colors": {
+              "0": {
+                "color": "#9a0202",
+                "style": 0,
+                "width": 1,
+                "name": "Color 0"
+              }
+            },
+            "addDefaultColor": true,
+            "valToIndex": {
+              "4": 0
+            }
+          },
+          "palette_7": {
+            "colors": {
+              "0": {
+                "color": "#1b5e20",
+                "style": 0,
+                "width": 1,
+                "name": "Color 0"
+              }
+            },
+            "addDefaultColor": true,
+            "valToIndex": {
+              "5": 0
+            }
+          },
+          "palette_8": {
+            "colors": {
+              "0": {
+                "color": "#FF5252",
+                "style": 0,
+                "width": 3,
+                "name": "Color 0"
+              },
+              "1": {
+                "color": "#00E676",
+                "style": 0,
+                "width": 3,
+                "name": "Color 1"
+              }
+            },
+            "valToIndex": {
+              "6": 0,
+              "7": 1
+            }
+          }
+        },
+        "styles": {
+          "plot_0": {
+            "transparency": 90,
+            "visible": true,
+            "color": "#0496ff",
+            "linestyle": 0,
+            "linewidth": 2,
+            "plottype": "bg_colorer",
+            "histogramBase": 0,
+            "trackPrice": false,
+            "joinPoints": false,
+            "title": "Background Color",
+            "isHidden": false
+          },
+          "plot_1": {
+            "color": "rgba(255,255,255,0.5)",
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 0,
+            "trackPrice": false,
+            "transparency": 0,
+            "visible": true,
+            "histogramBase": 0,
+            "joinPoints": false,
+            "title": "Plot",
+            "isHidden": false
+          },
+          "plot_11": {
+            "color": "#2196F3",
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 0,
+            "trackPrice": false,
+            "transparency": 0,
+            "visible": true,
+            "histogramBase": 0,
+            "joinPoints": false,
+            "title": "WT 2nd Bearish Divergence",
+            "isHidden": false
+          },
+          "plot_13": {
+            "color": "#2196F3",
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 0,
+            "trackPrice": false,
+            "transparency": 0,
+            "visible": true,
+            "histogramBase": 0,
+            "joinPoints": false,
+            "title": "WT 2nd Bullish Divergence",
+            "isHidden": false
+          },
+          "plot_15": {
+            "color": "#2196F3",
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 0,
+            "trackPrice": false,
+            "transparency": 0,
+            "visible": true,
+            "histogramBase": 0,
+            "joinPoints": false,
+            "title": "WT 3nd Bearish Divergence",
+            "isHidden": false
+          },
+          "plot_17": {
+            "color": "#2196F3",
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 0,
+            "trackPrice": false,
+            "transparency": 0,
+            "visible": true,
+            "histogramBase": 0,
+            "joinPoints": false,
+            "title": "WT 3nd Bullish Divergence",
+            "isHidden": false
+          },
+          "plot_19": {
+            "color": "#ffffff",
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 6,
+            "trackPrice": false,
+            "transparency": 95,
+            "visible": true,
+            "histogramBase": 0,
+            "joinPoints": false,
+            "title": "Over Bought Level 3",
+            "isHidden": false
+          },
+          "plot_2": {
+            "color": "#a4ddff",
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 4,
+            "trackPrice": false,
+            "transparency": 0,
+            "visible": true,
+            "histogramBase": 0,
+            "joinPoints": false,
+            "title": "WT Wave 1",
+            "isHidden": false
+          },
+          "plot_20": {
+            "color": "#ffffff",
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 9,
+            "trackPrice": false,
+            "transparency": 85,
+            "visible": true,
+            "histogramBase": 0,
+            "joinPoints": false,
+            "title": "Over Sold Level 2",
+            "isHidden": false
+          },
+          "plot_21": {
+            "color": "#3fff00",
+            "textColor": "#3fff00",
+            "transparency": 50,
+            "visible": true,
+            "linestyle": 0,
+            "linewidth": 2,
+            "plottype": "chars",
+            "histogramBase": 0,
+            "trackPrice": false,
+            "joinPoints": false,
+            "title": "Buy circle",
+            "char": "·",
+            "isHidden": false,
+            "location": "Absolute",
+            "size": "small"
+          },
+          "plot_22": {
+            "color": "#ff0000",
+            "textColor": "#ff0000",
+            "transparency": 50,
+            "visible": true,
+            "linestyle": 0,
+            "linewidth": 2,
+            "plottype": "chars",
+            "histogramBase": 0,
+            "trackPrice": false,
+            "joinPoints": false,
+            "title": "Sell circle",
+            "char": "·",
+            "isHidden": false,
+            "location": "Absolute",
+            "size": "small"
+          },
+          "plot_23": {
+            "color": "#3fff00",
+            "textColor": "#3fff00",
+            "transparency": 0,
+            "visible": true,
+            "linestyle": 0,
+            "linewidth": 2,
+            "plottype": "chars",
+            "histogramBase": 0,
+            "trackPrice": false,
+            "joinPoints": false,
+            "title": "Divergence buy circle",
+            "char": "•",
+            "isHidden": false,
+            "location": "Absolute",
+            "size": "tiny"
+          },
+          "plot_24": {
+            "color": "#ff0000",
+            "textColor": "#ff0000",
+            "transparency": 0,
+            "visible": true,
+            "linestyle": 0,
+            "linewidth": 2,
+            "plottype": "chars",
+            "histogramBase": 0,
+            "trackPrice": false,
+            "joinPoints": false,
+            "title": "Divergence sell circle",
+            "char": "•",
+            "isHidden": false,
+            "location": "Absolute",
+            "size": "tiny"
+          },
+          "plot_25": {
+            "color": "#e2a400",
+            "textColor": "#e2a400",
+            "transparency": 0,
+            "visible": true,
+            "linestyle": 0,
+            "linewidth": 2,
+            "plottype": "chars",
+            "histogramBase": 0,
+            "trackPrice": false,
+            "joinPoints": false,
+            "title": "Gold  buy gold circle",
+            "char": "•",
+            "isHidden": false,
+            "location": "Absolute",
+            "size": "small"
+          },
+          "plot_26": {
+            "color": "#2196F3",
+            "linestyle": 0,
+            "linewidth": 3,
+            "plottype": 6,
+            "trackPrice": false,
+            "transparency": 15,
+            "visible": false,
+            "histogramBase": 0,
+            "joinPoints": false,
+            "title": "Buy and sell circle",
+            "isHidden": false
+          },
+          "plot_3": {
+            "color": "rgba(24, 43, 72, 1)",
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 4,
+            "trackPrice": false,
+            "transparency": 5,
+            "visible": true,
+            "histogramBase": 0,
+            "joinPoints": false,
+            "title": "WT Wave 2",
+            "isHidden": false
+          },
+          "plot_4": {
+            "color": "rgba(77, 208, 225, 0.65)",
+            "linestyle": 0,
+            "linewidth": 2,
+            "plottype": 4,
+            "trackPrice": false,
+            "transparency": 35,
+            "visible": true,
+            "histogramBase": 0,
+            "joinPoints": false,
+            "title": "VWAP",
+            "isHidden": false
+          },
+          "plot_5": {
+            "color": "#2196F3",
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 4,
+            "trackPrice": false,
+            "transparency": 25,
+            "visible": true,
+            "histogramBase": 0,
+            "joinPoints": false,
+            "title": "MFI Area",
+            "isHidden": false
+          },
+          "plot_7": {
+            "color": "#2196F3",
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 0,
+            "trackPrice": false,
+            "transparency": 0,
+            "visible": true,
+            "histogramBase": 0,
+            "joinPoints": false,
+            "title": "WT Bearish Divergence",
+            "isHidden": false
+          },
+          "plot_9": {
+            "color": "#2196F3",
+            "linestyle": 0,
+            "linewidth": 1,
+            "plottype": 0,
+            "trackPrice": false,
+            "transparency": 0,
+            "visible": true,
+            "histogramBase": 0,
+            "joinPoints": false,
+            "title": "WT Bullish Divergence",
+            "isHidden": false
+          }
+        },
+        "inputs": {
+          "in_0": true,
+          "in_1": true,
+          "in_10": 53,
+          "in_11": 60,
+          "in_12": 100,
+          "in_13": -53,
+          "in_14": -60,
+          "in_15": -75,
+          "in_16": true,
+          "in_17": true,
+          "in_18": 5,
+          "in_19": 200,
+          "in_2": true,
+          "in_20": 0.5,
+          "in_21": 100,
+          "in_22": false,
+          "in_23": false,
+          "in_24": true,
+          "in_25": 75,
+          "in_26": -65,
+          "in_27": false,
+          "in_28": 65,
+          "in_29": -55,
+          "in_3": true,
+          "in_30": false,
+          "in_31": 50,
+          "in_32": -50,
+          "in_33": true,
+          "in_34": 60,
+          "in_35": 150,
+          "in_36": 2.5,
+          "in_4": true,
+          "in_5": true,
+          "in_6": {WT_CHANNEL_LENGTH},
+          "in_7": {WT_AVERAGE},
+          "in_8": "hlc3",
+          "in_9": 3,
+          "pineId": "",
+          "pineVersion": "",
+          "text": "kJoFlYMbXC53T/HcRbUgzQ==_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"
+        },
+        "precision": "default",
+        "bands": {},
+        "area": {},
+        "graphics": {},
+        "showInDataWindow": true,
+        "visible": true,
+        "plots": {
+          "0": {
+            "id": "plot_0",
+            "palette": "palette_0",
+            "type": "bg_colorer",
+            "pinePlotIndex": 0
+          },
+          "1": {
+            "id": "plot_1",
+            "type": "line",
+            "pinePlotIndex": 1
+          },
+          "2": {
+            "id": "plot_2",
+            "type": "line",
+            "pinePlotIndex": 2
+          },
+          "3": {
+            "id": "plot_3",
+            "type": "line",
+            "pinePlotIndex": 3
+          },
+          "4": {
+            "id": "plot_4",
+            "type": "line",
+            "pinePlotIndex": 4
+          },
+          "5": {
+            "id": "plot_5",
+            "type": "line",
+            "pinePlotIndex": 5
+          },
+          "6": {
+            "id": "plot_6",
+            "palette": "palette_1",
+            "target": "plot_5",
+            "type": "colorer",
+            "pinePlotIndex": 6
+          },
+          "7": {
+            "id": "plot_7",
+            "type": "line",
+            "pinePlotIndex": 7
+          },
+          "8": {
+            "id": "plot_8",
+            "palette": "palette_2",
+            "target": "plot_7",
+            "type": "colorer",
+            "pinePlotIndex": 8
+          },
+          "9": {
+            "id": "plot_9",
+            "type": "line",
+            "pinePlotIndex": 9
+          },
+          "10": {
+            "id": "plot_10",
+            "palette": "palette_3",
+            "target": "plot_9",
+            "type": "colorer",
+            "pinePlotIndex": 10
+          },
+          "11": {
+            "id": "plot_11",
+            "type": "line",
+            "pinePlotIndex": 11
+          },
+          "12": {
+            "id": "plot_12",
+            "palette": "palette_4",
+            "target": "plot_11",
+            "type": "colorer",
+            "pinePlotIndex": 12
+          },
+          "13": {
+            "id": "plot_13",
+            "type": "line",
+            "pinePlotIndex": 13
+          },
+          "14": {
+            "id": "plot_14",
+            "palette": "palette_5",
+            "target": "plot_13",
+            "type": "colorer",
+            "pinePlotIndex": 14
+          },
+          "15": {
+            "id": "plot_15",
+            "type": "line",
+            "pinePlotIndex": 15
+          },
+          "16": {
+            "id": "plot_16",
+            "palette": "palette_6",
+            "target": "plot_15",
+            "type": "colorer",
+            "pinePlotIndex": 16
+          },
+          "17": {
+            "id": "plot_17",
+            "type": "line",
+            "pinePlotIndex": 17
+          },
+          "18": {
+            "id": "plot_18",
+            "palette": "palette_7",
+            "target": "plot_17",
+            "type": "colorer",
+            "pinePlotIndex": 18
+          },
+          "19": {
+            "id": "plot_19",
+            "type": "line",
+            "pinePlotIndex": 19
+          },
+          "20": {
+            "id": "plot_20",
+            "type": "line",
+            "pinePlotIndex": 20
+          },
+          "21": {
+            "id": "plot_21",
+            "type": "chars",
+            "pinePlotIndex": 21
+          },
+          "22": {
+            "id": "plot_22",
+            "type": "chars",
+            "pinePlotIndex": 22
+          },
+          "23": {
+            "id": "plot_23",
+            "type": "chars",
+            "pinePlotIndex": 23
+          },
+          "24": {
+            "id": "plot_24",
+            "type": "chars",
+            "pinePlotIndex": 24
+          },
+          "25": {
+            "id": "plot_25",
+            "type": "chars",
+            "pinePlotIndex": 25
+          },
+          "26": {
+            "id": "plot_26",
+            "type": "line",
+            "pinePlotIndex": 26
+          },
+          "27": {
+            "id": "plot_27",
+            "palette": "palette_8",
+            "target": "plot_26",
+            "type": "colorer",
+            "pinePlotIndex": 27
+          }
+        },
+        "_metainfoVersion": 50,
+        "description": "Market Cipher B [WEA] Beta + Divergeces",
+        "format": {
+          "type": "inherit"
+        },
+        "historyCalculationMayChange": true,
+        "id": "Script$USER;tZlZEcnaKreV94ogyuuHdQ6fXfJmJJSB@tv-scripting",
+        "isTVScript": true,
+        "isTVScriptStub": false,
+        "is_hidden_study": false,
+        "is_price_study": false,
+        "pine": {
+          "digest": "b90a14a074b9feabfccb5aed0b6e0cdd33390255",
+          "version": "762.0"
+        },
+        "scriptIdPart": "USER;tZlZEcnaKreV94ogyuuHdQ6fXfJmJJSB",
+        "shortDescription": "WEACipher_B_Divergences",
+        "warnings": {},
+        "shortId": "Script$USER;tZlZEcnaKreV94ogyuuHdQ6fXfJmJJSB",
+        "packageId": "tv-scripting",
+        "version": "101",
+        "fullId": "Script$USER;tZlZEcnaKreV94ogyuuHdQ6fXfJmJJSB@tv-scripting-101",
+        "productId": "tv-scripting",
+        "name": "Script$USER;tZlZEcnaKreV94ogyuuHdQ6fXfJmJJSB@tv-scripting",
+        "_serverMetaInfoVersion": 50
+      },
+      "zorder": -7,
+      "metaInfo": {
+        "palettes": {
+          "palette_0": {
+            "colors": {
+              "0": {
+                "name": "Color 0"
+              }
+            },
+            "valToIndex": {
+              "8": 0
+            }
+          },
+          "palette_1": {
+            "colors": {
+              "0": {
+                "name": "Color 0"
+              },
+              "1": {
+                "name": "Color 1"
+              }
+            },
+            "valToIndex": {
+              "0": 0,
+              "1": 1
+            }
+          },
+          "palette_2": {
+            "addDefaultColor": true,
+            "colors": {
+              "0": {
+                "name": "Color 0"
+              }
+            },
+            "valToIndex": {
+              "2": 0
+            }
+          },
+          "palette_3": {
+            "addDefaultColor": true,
+            "colors": {
+              "0": {
+                "name": "Color 0"
+              }
+            },
+            "valToIndex": {
+              "3": 0
+            }
+          },
+          "palette_4": {
+            "addDefaultColor": true,
+            "colors": {
+              "0": {
+                "name": "Color 0"
+              }
+            },
+            "valToIndex": {
+              "4": 0
+            }
+          },
+          "palette_5": {
+            "addDefaultColor": true,
+            "colors": {
+              "0": {
+                "name": "Color 0"
+              }
+            },
+            "valToIndex": {
+              "5": 0
+            }
+          },
+          "palette_6": {
+            "addDefaultColor": true,
+            "colors": {
+              "0": {
+                "name": "Color 0"
+              }
+            },
+            "valToIndex": {
+              "4": 0
+            }
+          },
+          "palette_7": {
+            "addDefaultColor": true,
+            "colors": {
+              "0": {
+                "name": "Color 0"
+              }
+            },
+            "valToIndex": {
+              "5": 0
+            }
+          },
+          "palette_8": {
+            "colors": {
+              "0": {
+                "name": "Color 0"
+              },
+              "1": {
+                "name": "Color 1"
+              }
+            },
+            "valToIndex": {
+              "6": 0,
+              "7": 1
+            }
+          }
+        },
+        "inputs": [
+          {
+            "defval": "kJoFlYMbXC53T/HcRbUgzQ==_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",
+            "id": "text",
+            "isHidden": true,
+            "name": "ILScript",
+            "type": "text"
+          },
+          {
+            "defval": "",
+            "id": "pineId",
+            "isHidden": true,
+            "name": "pineId",
+            "type": "text"
+          },
+          {
+            "defval": "",
+            "id": "pineVersion",
+            "isHidden": true,
+            "name": "pineVersion",
+            "type": "text"
+          },
+          {
+            "defval": true,
+            "id": "in_0",
+            "isFake": true,
+            "name": "Show WaveTrend",
+            "type": "bool"
+          },
+          {
+            "defval": true,
+            "id": "in_1",
+            "isFake": true,
+            "name": "Show Buy dots",
+            "type": "bool"
+          },
+          {
+            "defval": true,
+            "id": "in_2",
+            "isFake": true,
+            "name": "Show Gold dots",
+            "type": "bool"
+          },
+          {
+            "defval": true,
+            "id": "in_3",
+            "isFake": true,
+            "name": "Show Sell dots",
+            "type": "bool"
+          },
+          {
+            "defval": true,
+            "id": "in_4",
+            "isFake": true,
+            "name": "Show Div. dots",
+            "type": "bool"
+          },
+          {
+            "defval": true,
+            "id": "in_5",
+            "isFake": true,
+            "name": "Show Fast WT",
+            "type": "bool"
+          },
+          {
+            "defval": 9,
+            "id": "in_6",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "WT Channel Length",
+            "type": "integer"
+          },
+          {
+            "defval": 12,
+            "id": "in_7",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "WT Average Length",
+            "type": "integer"
+          },
+          {
+            "defval": "hlc3",
+            "id": "in_8",
+            "isFake": true,
+            "name": "WT MA Source",
+            "options": [
+              "open",
+              "high",
+              "low",
+              "close",
+              "hl2",
+              "hlc3",
+              "ohlc4"
+            ],
+            "type": "source"
+          },
+          {
+            "defval": 3,
+            "id": "in_9",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "WT MA Length",
+            "type": "integer"
+          },
+          {
+            "defval": 53,
+            "id": "in_10",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "WT Overbought Level 1",
+            "type": "integer"
+          },
+          {
+            "defval": 60,
+            "id": "in_11",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "WT Overbought Level 2",
+            "type": "integer"
+          },
+          {
+            "defval": 100,
+            "id": "in_12",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "WT Overbought Level 3",
+            "type": "integer"
+          },
+          {
+            "defval": -53,
+            "id": "in_13",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "WT Oversold Level 1",
+            "type": "integer"
+          },
+          {
+            "defval": -60,
+            "id": "in_14",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "WT Oversold Level 2",
+            "type": "integer"
+          },
+          {
+            "defval": -75,
+            "id": "in_15",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "WT Oversold Level 3",
+            "type": "integer"
+          },
+          {
+            "defval": true,
+            "id": "in_16",
+            "isFake": true,
+            "name": "Filter divergences",
+            "type": "bool"
+          },
+          {
+            "defval": true,
+            "id": "in_17",
+            "isFake": true,
+            "name": "Show Filtered Ghost Divergences?",
+            "type": "bool"
+          },
+          {
+            "defval": 5,
+            "id": "in_18",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "Minimum bar length:",
+            "type": "integer"
+          },
+          {
+            "defval": 200,
+            "id": "in_19",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "Maximum bar length:",
+            "type": "integer"
+          },
+          {
+            "defval": 0.5,
+            "id": "in_20",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "Minimum price change %:",
+            "step": 0.02,
+            "type": "float"
+          },
+          {
+            "defval": 100,
+            "id": "in_21",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "Maximum price change %:",
+            "step": 0.02,
+            "type": "float"
+          },
+          {
+            "defval": true,
+            "id": "in_22",
+            "isFake": true,
+            "name": "Show WT Regular Divergences",
+            "type": "bool"
+          },
+          {
+            "defval": false,
+            "id": "in_23",
+            "isFake": true,
+            "name": "Show WT Hidden Divergences",
+            "type": "bool"
+          },
+          {
+            "defval": true,
+            "id": "in_24",
+            "isFake": true,
+            "name": "Not apply OB/OS Limits on Hidden Divergences",
+            "type": "bool"
+          },
+          {
+            "defval": 75,
+            "id": "in_25",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "WT Bearish Divergence min",
+            "type": "integer"
+          },
+          {
+            "defval": -65,
+            "id": "in_26",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "WT Bullish Divergence min",
+            "type": "integer"
+          },
+          {
+            "defval": true,
+            "id": "in_27",
+            "isFake": true,
+            "name": "Show 2nd WT Regular Divergences",
+            "type": "bool"
+          },
+          {
+            "defval": 65,
+            "id": "in_28",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "WT 2nd Bearish Divergence",
+            "type": "integer"
+          },
+          {
+            "defval": -55,
+            "id": "in_29",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "WT 2nd Bullish Divergence",
+            "type": "integer"
+          },
+          {
+            "defval": true,
+            "id": "in_30",
+            "isFake": true,
+            "name": "Show 3nd WT Regular Divergences",
+            "type": "bool"
+          },
+          {
+            "defval": 50,
+            "id": "in_31",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "WT 3nd Bearish Divergence",
+            "type": "integer"
+          },
+          {
+            "defval": -50,
+            "id": "in_32",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "WT 3nd Bullish Divergence",
+            "type": "integer"
+          },
+          {
+            "defval": true,
+            "id": "in_33",
+            "isFake": true,
+            "name": "Show MFI",
+            "type": "bool"
+          },
+          {
+            "defval": 60,
+            "id": "in_34",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "MFI Period",
+            "type": "integer"
+          },
+          {
+            "defval": 150,
+            "id": "in_35",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "MFI Area multiplier",
+            "type": "float"
+          },
+          {
+            "defval": 2.5,
+            "id": "in_36",
+            "isFake": true,
+            "max": 1000000000000,
+            "min": -1000000000000,
+            "name": "MFI Area Y Pos",
+            "type": "float"
+          }
+        ],
+        "plots": [
+          {
+            "id": "plot_0",
+            "palette": "palette_0",
+            "type": "bg_colorer",
+            "pinePlotIndex": 0
+          },
+          {
+            "id": "plot_1",
+            "type": "line",
+            "pinePlotIndex": 1
+          },
+          {
+            "id": "plot_2",
+            "type": "line",
+            "pinePlotIndex": 2
+          },
+          {
+            "id": "plot_3",
+            "type": "line",
+            "pinePlotIndex": 3
+          },
+          {
+            "id": "plot_4",
+            "type": "line",
+            "pinePlotIndex": 4
+          },
+          {
+            "id": "plot_5",
+            "type": "line",
+            "pinePlotIndex": 5
+          },
+          {
+            "id": "plot_6",
+            "palette": "palette_1",
+            "target": "plot_5",
+            "type": "colorer",
+            "pinePlotIndex": 6
+          },
+          {
+            "id": "plot_7",
+            "type": "line",
+            "pinePlotIndex": 7
+          },
+          {
+            "id": "plot_8",
+            "palette": "palette_2",
+            "target": "plot_7",
+            "type": "colorer",
+            "pinePlotIndex": 8
+          },
+          {
+            "id": "plot_9",
+            "type": "line",
+            "pinePlotIndex": 9
+          },
+          {
+            "id": "plot_10",
+            "palette": "palette_3",
+            "target": "plot_9",
+            "type": "colorer",
+            "pinePlotIndex": 10
+          },
+          {
+            "id": "plot_11",
+            "type": "line",
+            "pinePlotIndex": 11
+          },
+          {
+            "id": "plot_12",
+            "palette": "palette_4",
+            "target": "plot_11",
+            "type": "colorer",
+            "pinePlotIndex": 12
+          },
+          {
+            "id": "plot_13",
+            "type": "line",
+            "pinePlotIndex": 13
+          },
+          {
+            "id": "plot_14",
+            "palette": "palette_5",
+            "target": "plot_13",
+            "type": "colorer",
+            "pinePlotIndex": 14
+          },
+          {
+            "id": "plot_15",
+            "type": "line",
+            "pinePlotIndex": 15
+          },
+          {
+            "id": "plot_16",
+            "palette": "palette_6",
+            "target": "plot_15",
+            "type": "colorer",
+            "pinePlotIndex": 16
+          },
+          {
+            "id": "plot_17",
+            "type": "line",
+            "pinePlotIndex": 17
+          },
+          {
+            "id": "plot_18",
+            "palette": "palette_7",
+            "target": "plot_17",
+            "type": "colorer",
+            "pinePlotIndex": 18
+          },
+          {
+            "id": "plot_19",
+            "type": "line",
+            "pinePlotIndex": 19
+          },
+          {
+            "id": "plot_20",
+            "type": "line",
+            "pinePlotIndex": 20
+          },
+          {
+            "id": "plot_21",
+            "type": "chars",
+            "pinePlotIndex": 21
+          },
+          {
+            "id": "plot_22",
+            "type": "chars",
+            "pinePlotIndex": 22
+          },
+          {
+            "id": "plot_23",
+            "type": "chars",
+            "pinePlotIndex": 23
+          },
+          {
+            "id": "plot_24",
+            "type": "chars",
+            "pinePlotIndex": 24
+          },
+          {
+            "id": "plot_25",
+            "type": "chars",
+            "pinePlotIndex": 25
+          },
+          {
+            "id": "plot_26",
+            "type": "line",
+            "pinePlotIndex": 26
+          },
+          {
+            "id": "plot_27",
+            "palette": "palette_8",
+            "target": "plot_26",
+            "type": "colorer",
+            "pinePlotIndex": 27
+          }
+        ],
+        "graphics": {},
+        "defaults": {
+          "inputs": {
+            "in_0": true,
+            "in_1": true,
+            "in_10": 53,
+            "in_11": 60,
+            "in_12": 100,
+            "in_13": -53,
+            "in_14": -60,
+            "in_15": -75,
+            "in_16": true,
+            "in_17": true,
+            "in_18": 5,
+            "in_19": 200,
+            "in_2": true,
+            "in_20": 0.5,
+            "in_21": 100,
+            "in_22": true,
+            "in_23": false,
+            "in_24": true,
+            "in_25": 75,
+            "in_26": -65,
+            "in_27": true,
+            "in_28": 65,
+            "in_29": -55,
+            "in_3": true,
+            "in_30": true,
+            "in_31": 50,
+            "in_32": -50,
+            "in_33": true,
+            "in_34": 60,
+            "in_35": 150,
+            "in_36": 2.5,
+            "in_4": true,
+            "in_5": true,
+            "in_6": 9,
+            "in_7": 12,
+            "in_8": "hlc3",
+            "in_9": 3,
+            "pineId": "",
+            "pineVersion": "",
+            "text": "kJoFlYMbXC53T/HcRbUgzQ==_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"
+          },
+          "palettes": {
+            "palette_0": {
+              "colors": {
+                "0": {
+                  "color": "rgba(0,0,0,0.2)",
+                  "style": 0,
+                  "width": 1
+                }
+              }
+            },
+            "palette_1": {
+              "colors": {
+                "0": {
+                  "color": "#3ee145",
+                  "style": 0,
+                  "width": 1
+                },
+                "1": {
+                  "color": "#ff3d2e",
+                  "style": 0,
+                  "width": 1
+                }
+              }
+            },
+            "palette_2": {
+              "colors": {
+                "0": {
+                  "color": "#ff0000",
+                  "style": 0,
+                  "width": 1
+                }
+              }
+            },
+            "palette_3": {
+              "colors": {
+                "0": {
+                  "color": "#3fff00",
+                  "style": 0,
+                  "width": 1
+                }
+              }
+            },
+            "palette_4": {
+              "colors": {
+                "0": {
+                  "color": "#9a0202",
+                  "style": 0,
+                  "width": 1
+                }
+              }
+            },
+            "palette_5": {
+              "colors": {
+                "0": {
+                  "color": "#1b5e20",
+                  "style": 0,
+                  "width": 1
+                }
+              }
+            },
+            "palette_6": {
+              "colors": {
+                "0": {
+                  "color": "#9a0202",
+                  "style": 0,
+                  "width": 1
+                }
+              }
+            },
+            "palette_7": {
+              "colors": {
+                "0": {
+                  "color": "#1b5e20",
+                  "style": 0,
+                  "width": 1
+                }
+              }
+            },
+            "palette_8": {
+              "colors": {
+                "0": {
+                  "color": "#FF5252",
+                  "style": 0,
+                  "width": 3
+                },
+                "1": {
+                  "color": "#00E676",
+                  "style": 0,
+                  "width": 3
+                }
+              }
+            }
+          },
+          "styles": {
+            "plot_0": {
+              "transparency": 90
+            },
+            "plot_1": {
+              "color": "rgba(255,255,255,0.5)",
+              "linestyle": 0,
+              "linewidth": 1,
+              "plottype": 0,
+              "trackPrice": false,
+              "transparency": 0,
+              "visible": true
+            },
+            "plot_11": {
+              "color": "#2196F3",
+              "linestyle": 0,
+              "linewidth": 1,
+              "plottype": 0,
+              "trackPrice": false,
+              "transparency": 0,
+              "visible": true
+            },
+            "plot_13": {
+              "color": "#2196F3",
+              "linestyle": 0,
+              "linewidth": 1,
+              "plottype": 0,
+              "trackPrice": false,
+              "transparency": 0,
+              "visible": true
+            },
+            "plot_15": {
+              "color": "#2196F3",
+              "linestyle": 0,
+              "linewidth": 1,
+              "plottype": 0,
+              "trackPrice": false,
+              "transparency": 0,
+              "visible": true
+            },
+            "plot_17": {
+              "color": "#2196F3",
+              "linestyle": 0,
+              "linewidth": 1,
+              "plottype": 0,
+              "trackPrice": false,
+              "transparency": 0,
+              "visible": true
+            },
+            "plot_19": {
+              "color": "#ffffff",
+              "linestyle": 0,
+              "linewidth": 1,
+              "plottype": 6,
+              "trackPrice": false,
+              "transparency": 95,
+              "visible": true
+            },
+            "plot_2": {
+              "color": "#a4ddff",
+              "linestyle": 0,
+              "linewidth": 1,
+              "plottype": 4,
+              "trackPrice": false,
+              "transparency": 0,
+              "visible": true
+            },
+            "plot_20": {
+              "color": "#ffffff",
+              "linestyle": 0,
+              "linewidth": 1,
+              "plottype": 9,
+              "trackPrice": false,
+              "transparency": 85,
+              "visible": true
+            },
+            "plot_21": {
+              "color": "#3fff00",
+              "textColor": "#3fff00",
+              "transparency": 50,
+              "visible": true
+            },
+            "plot_22": {
+              "color": "#ff0000",
+              "textColor": "#ff0000",
+              "transparency": 50,
+              "visible": true
+            },
+            "plot_23": {
+              "color": "#3fff00",
+              "textColor": "#3fff00",
+              "transparency": 0,
+              "visible": true
+            },
+            "plot_24": {
+              "color": "#ff0000",
+              "textColor": "#ff0000",
+              "transparency": 0,
+              "visible": true
+            },
+            "plot_25": {
+              "color": "#e2a400",
+              "textColor": "#e2a400",
+              "transparency": 0,
+              "visible": true
+            },
+            "plot_26": {
+              "color": "#2196F3",
+              "linestyle": 0,
+              "linewidth": 3,
+              "plottype": 6,
+              "trackPrice": false,
+              "transparency": 15,
+              "visible": true
+            },
+            "plot_3": {
+              "color": "#131722",
+              "linestyle": 0,
+              "linewidth": 1,
+              "plottype": 4,
+              "trackPrice": false,
+              "transparency": 5,
+              "visible": true
+            },
+            "plot_4": {
+              "color": "#ffe500",
+              "linestyle": 0,
+              "linewidth": 2,
+              "plottype": 4,
+              "trackPrice": false,
+              "transparency": 35,
+              "visible": true
+            },
+            "plot_5": {
+              "color": "#2196F3",
+              "linestyle": 0,
+              "linewidth": 1,
+              "plottype": 4,
+              "trackPrice": false,
+              "transparency": 25,
+              "visible": true
+            },
+            "plot_7": {
+              "color": "#2196F3",
+              "linestyle": 0,
+              "linewidth": 1,
+              "plottype": 0,
+              "trackPrice": false,
+              "transparency": 0,
+              "visible": true
+            },
+            "plot_9": {
+              "color": "#2196F3",
+              "linestyle": 0,
+              "linewidth": 1,
+              "plottype": 0,
+              "trackPrice": false,
+              "transparency": 0,
+              "visible": true
+            }
+          }
+        },
+        "_metainfoVersion": 50,
+        "description": "Market Cipher B [WEA] Beta + Divergeces",
+        "format": {
+          "type": "inherit"
+        },
+        "historyCalculationMayChange": true,
+        "id": "Script$USER;tZlZEcnaKreV94ogyuuHdQ6fXfJmJJSB@tv-scripting-101",
+        "isTVScript": true,
+        "isTVScriptStub": false,
+        "is_hidden_study": false,
+        "is_price_study": false,
+        "pine": {
+          "digest": "b90a14a074b9feabfccb5aed0b6e0cdd33390255",
+          "version": "762.0"
+        },
+        "scriptIdPart": "USER;tZlZEcnaKreV94ogyuuHdQ6fXfJmJJSB",
+        "shortDescription": "WEACipher_B_Divergences",
+        "styles": {
+          "plot_0": {
+            "isHidden": false,
+            "title": "Background Color"
+          },
+          "plot_1": {
+            "histogramBase": 0,
+            "isHidden": false,
+            "joinPoints": false,
+            "title": "Plot"
+          },
+          "plot_11": {
+            "histogramBase": 0,
+            "isHidden": false,
+            "joinPoints": false,
+            "title": "WT 2nd Bearish Divergence"
+          },
+          "plot_13": {
+            "histogramBase": 0,
+            "isHidden": false,
+            "joinPoints": false,
+            "title": "WT 2nd Bullish Divergence"
+          },
+          "plot_15": {
+            "histogramBase": 0,
+            "isHidden": false,
+            "joinPoints": false,
+            "title": "WT 3nd Bearish Divergence"
+          },
+          "plot_17": {
+            "histogramBase": 0,
+            "isHidden": false,
+            "joinPoints": false,
+            "title": "WT 3nd Bullish Divergence"
+          },
+          "plot_19": {
+            "histogramBase": 0,
+            "isHidden": false,
+            "joinPoints": false,
+            "title": "Over Bought Level 3"
+          },
+          "plot_2": {
+            "histogramBase": 0,
+            "isHidden": false,
+            "joinPoints": false,
+            "title": "WT Wave 1"
+          },
+          "plot_20": {
+            "histogramBase": 0,
+            "isHidden": false,
+            "joinPoints": false,
+            "title": "Over Sold Level 2"
+          },
+          "plot_21": {
+            "char": "·",
+            "isHidden": false,
+            "location": "Absolute",
+            "size": "small",
+            "title": "Buy circle"
+          },
+          "plot_22": {
+            "char": "·",
+            "isHidden": false,
+            "location": "Absolute",
+            "size": "small",
+            "title": "Sell circle"
+          },
+          "plot_23": {
+            "char": "•",
+            "isHidden": false,
+            "location": "Absolute",
+            "size": "tiny",
+            "title": "Divergence buy circle"
+          },
+          "plot_24": {
+            "char": "•",
+            "isHidden": false,
+            "location": "Absolute",
+            "size": "tiny",
+            "title": "Divergence sell circle"
+          },
+          "plot_25": {
+            "char": "•",
+            "isHidden": false,
+            "location": "Absolute",
+            "size": "small",
+            "title": "Gold  buy gold circle"
+          },
+          "plot_26": {
+            "histogramBase": 0,
+            "isHidden": false,
+            "joinPoints": false,
+            "title": "Buy and sell circle"
+          },
+          "plot_3": {
+            "histogramBase": 0,
+            "isHidden": false,
+            "joinPoints": false,
+            "title": "WT Wave 2"
+          },
+          "plot_4": {
+            "histogramBase": 0,
+            "isHidden": false,
+            "joinPoints": false,
+            "title": "VWAP"
+          },
+          "plot_5": {
+            "histogramBase": 0,
+            "isHidden": false,
+            "joinPoints": false,
+            "title": "MFI Area"
+          },
+          "plot_7": {
+            "histogramBase": 0,
+            "isHidden": false,
+            "joinPoints": false,
+            "title": "WT Bearish Divergence"
+          },
+          "plot_9": {
+            "histogramBase": 0,
+            "isHidden": false,
+            "joinPoints": false,
+            "title": "WT Bullish Divergence"
+          }
+        },
+        "warnings": [],
+        "shortId": "Script$USER;tZlZEcnaKreV94ogyuuHdQ6fXfJmJJSB",
+        "packageId": "tv-scripting",
+        "version": "101",
+        "fullId": "Script$USER;tZlZEcnaKreV94ogyuuHdQ6fXfJmJJSB@tv-scripting-101",
+        "productId": "tv-scripting",
+        "name": "Script$USER;tZlZEcnaKreV94ogyuuHdQ6fXfJmJJSB@tv-scripting",
+        "_serverMetaInfoVersion": 50
+      }
+    }
+  ],
+  "leftAxisesState": [],
+  "rightAxisesState": [
+    {
+      "state": {
+        "id": "HA06aUPbUAWJ",
+        "m_priceRange": {
+          "m_maxValue": 115.36610901556378,
+          "m_minValue": -95.72622826004957
+        },
+        "m_isAutoScale": false,
+        "m_isPercentage": false,
+        "m_isIndexedTo100": false,
+        "m_isLog": false,
+        "m_isLockScale": false,
+        "m_isInverted": false,
+        "m_height": 86,
+        "m_topMargin": 0.1,
+        "m_bottomMargin": 0.08,
+        "alignLabels": true
+      },
+      "sources": [
+        "OGns9u"
+      ]
+    }
+  ],
+  "overlayPriceScales": {},
+  "stretchFactor": 1216.256510010473,
+  "mainSourceId": "OGns9u",
+  "priceScaleRatio": null
+}
